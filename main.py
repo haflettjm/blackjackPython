@@ -54,8 +54,8 @@ def rules(money):
 
 #game logic handler
 
-def gameLoop(betAmnt, money):
-    
+def gameLogic(betAmnt, money):
+
 
 
 #Handles repeated playing
@@ -80,7 +80,7 @@ def main():
         betAmnt = bet(money)
 
         #run game logic
-        gameLoop(betAmnt, money)
+        gameLogic(betAmnt, money)
 
         playAgain(gameState)
 
